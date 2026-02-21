@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>VA Claim Status</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Your Claim Details</h1>
+
+  <div id="output" class="output-container">
+    Loading...
+  </div>
+
+  <div class="checkbox-row">
+    <input type="checkbox" id="hideIdCheckbox">
+    <label for="hideIdCheckbox">Hide unique ID fields</label>
+  </div>
+
+  <button id="refreshBtn">Refresh</button>
+
+  <div id="ratedOutput" class="output-container">
+    Click "View Your Ratings" to see your current disability rating.
+  </div>
+  <button id="refreshRatedBtn">View Your Ratings</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
