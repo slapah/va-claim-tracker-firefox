@@ -23,7 +23,7 @@ Doesn't touch your pages, doesn't track anything, doesn't phone home. Everything
 3. Pick the `manifest.json` from this folder
 4. That's it, icon shows up in your toolbar
 
-Note: temporary addons go away when you close Firefox. If you want it permanent you'd need to get it signed through addons.mozilla.org or use Firefox Developer Edition with `xpinstall.signatures.required` set to false in about:config.
+Note: temporary addons go away when you close Firefox. If you want it permanent you'd need to get it signed through addons.mozilla.org(already submitted) or use Firefox Developer Edition with `xpinstall.signatures.required` set to false in about:config.
 
 ## using it
 
